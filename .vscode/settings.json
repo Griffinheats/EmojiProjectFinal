@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "bridges-java-3.3.0.jar"
+    ]
+}
