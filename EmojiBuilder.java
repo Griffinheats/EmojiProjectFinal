@@ -20,6 +20,7 @@ public class EmojiBuilder extends NonBlockingGame {
         // Set a description which will show under the title
         setDescription("I have no art skills");
         // start method
+        initialize();
         start();
     }
 
@@ -58,25 +59,25 @@ public class EmojiBuilder extends NonBlockingGame {
             setBGColor(0, i, NamedColor.brown);
         }
         //Set the first four from the out side on each side to be brown
-        for(int i = 0; i < 5; i++)
+        for(int i = 0; i < 4; i++)
         {
             setBGColor(1, i, NamedColor.brown);
             setBGColor(1, 9-i, NamedColor.brown);
         }
         //Set the first three from the out side on each side to be brown
-        for(int i = 0; i < 4; i++)
+        for(int i = 0; i < 3; i++)
         {
             setBGColor(2, i, NamedColor.brown);
             setBGColor(2, 9-i, NamedColor.brown);
         }
         //Set the first two from the out side on each side to be brown
-        for(int i = 0; i < 3; i++)
+        for(int i = 0; i < 2; i++)
         {
             setBGColor(3, i, NamedColor.brown);
             setBGColor(3, 9-i, NamedColor.brown);
         }
         //Set the first one from the out side on each side to be brown
-        for(int i = 0; i < 2; i++)
+        for(int i = 0; i < 1; i++)
         {
             setBGColor(4, i, NamedColor.brown);
             setBGColor(4, 9-i, NamedColor.brown);
@@ -96,12 +97,12 @@ public class EmojiBuilder extends NonBlockingGame {
 
         //mouth
         //top of mouth
-        for(int i = 2; i < getBoardHeight()-1; i++)
+        for(int i = 2; i < getBoardHeight()-2; i++)
         {
             setBGColor(7, i, NamedColor.black);
         }
         //bottom of mouth
-        for(int i = 3; i < getBoardHeight()-2; i++)
+        for(int i = 3; i < getBoardHeight()-3; i++)
         {
             setBGColor(8, i, NamedColor.black);
         }
